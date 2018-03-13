@@ -7,6 +7,7 @@ module.exports = {
     output: {
         filename: 'assets/[name].js',
         publicPath: `http://localhost:${process.env.PORT}/`,
+        // FOR PRODUCTION // publicPath: '/'
         path: '/'
     },
     devServer: {
